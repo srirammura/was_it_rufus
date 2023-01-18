@@ -10,10 +10,10 @@ git_dir: directory in which to assess git status
 
 Your program should print the following things:
 
-active branch (boolean)\
-whether repository files have been modified (boolean)\
-whether the current head commit was authored in the last week (boolean)\
-whether the current head commit was authored by Rufus (boolean)\
+active branch (boolean)
+whether repository files have been modified (boolean)
+whether the current head commit was authored in the last week (boolean)
+whether the current head commit was authored by Rufus (boolean)
 
 ## How to run this program
 
@@ -25,4 +25,12 @@ python3 main.py <git_directory_name>
 For example :  
 ```
 python3 main.py /Users/srirammuralidharan/PycharmProjects/was_it_rufus/
+```
+##Output
+
+```
+active branch:  main
+local changes:  True
+recent commit:  True
+blame Rufus:  False
 ```
