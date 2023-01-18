@@ -17,7 +17,12 @@ whether the current head commit was authored by Rufus (boolean)\
 
 ## How to run this program
 
-pip3 install -r requirements\
+```
+pip3 install -r requirements
 python3 main.py <git_directory_name>
+```
 
-for example :  python3 main.py /Users/srirammuralidharan/PycharmProjects/was_it_rufus/
+For example :  
+```
+python3 main.py /Users/srirammuralidharan/PycharmProjects/was_it_rufus/
+```
